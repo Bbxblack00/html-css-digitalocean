@@ -1,5 +1,8 @@
+/* REGOLE GENERASLI */
+
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
 
@@ -7,4 +10,18 @@
 #jt {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
+}
+
+#iscrizione {
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px
+}
+#iscrizione input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(200, 200, 200, 0.7);
+  border-radius: 3px;
+  margin: 5px 0;
 }
