@@ -5,15 +5,24 @@
   margin: 0;
 }
 
+.evidenziato {
+  color: rgb(0, 106, 255);
+}
 
-/* regolo JT */
+.h1, h1 {
+    font-size: 55px;
+}
+
+
+
+/* REGOLE JT */
 #jt {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
 }
 
 #iscrizione {
-  margin-top: 20px;
+  margin: 20px auto;
   text-align: center;
   background-color: white;
   border-radius: 4px
@@ -23,5 +32,29 @@
   width: 100%;
   border: 1px solid rgba(200, 200, 200, 0.7);
   border-radius: 3px;
-  margin: 5px 0;
+  margin: 10px 0;
+}
+
+#jt h1{
+  color: white;
+}
+
+#jt [class*="col-"]:first-child p{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#jt h3{
+  margin:10px 0;
+}
+
+.btn{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#iscrizione img{/* altezza del bottone 20px */
+  width: 18px;
+  float: left;
+  margin-top: 1
+  px;
 }
