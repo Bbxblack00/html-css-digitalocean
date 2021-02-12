@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
+
+/* regolo JT */
+#jt {
+  background-image: url(../img/jumbo.svg);
+  background-size: cover;
+}
