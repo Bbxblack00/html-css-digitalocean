@@ -55,8 +55,7 @@
 #iscrizione img { /* altezza del bottone 20px */
   width: 18px;
   float: left;
-  margin-top: 1
-  px;
+  margin-top: 1px;
 }
 
 
@@ -73,4 +72,38 @@
   margin-top: 30px;
 }
 
+#businesses .row:last-child {
+  margin-bottom: 15px;
+}
+
 /* REGOLE SEAMLESSLY */
+#seamlessly {
+  text-align: center;
+}
+
+#seamlessly {
+  text-align: center;
+}
+
+#elenco {
+  border-left: 1px solid rgb(125, 125, 125);
+  padding-left: 0;
+}
+
+#elenco > ul {
+  list-style: none;
+  text-align: left;
+}
+
+#elenco li {
+  color: rgb(125, 125, 125);
+  margin-bottom: 10px;
+}
+
+#griglia {
+  text-align: left;
+}
+
+#griglia img {
+  margin-bottom: 10px;
+}
