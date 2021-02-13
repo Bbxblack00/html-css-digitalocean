@@ -52,11 +52,25 @@
   margin-bottom: 10px;
 }
 
-#iscrizione img{/* altezza del bottone 20px */
+#iscrizione img { /* altezza del bottone 20px */
   width: 18px;
   float: left;
   margin-top: 1
   px;
 }
 
+
+
+
 /* REGOLE BUSINESSES */
+#businesses {
+  background-color: rgb( 243, 245, 249);
+  text-align: center;
+}
+
+#businesses p{
+  color: rgb(125, 125, 125);
+  margin-top: 30px;
+}
+
+/* REGOLE SEAMLESSLY */
