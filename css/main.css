@@ -173,5 +173,45 @@ p{
 
 /* REGOLE SERVICE */
 #service{
-  background-color: linear-gradient(to bottom, rgb(0, 33, 156), rgb(0, 71, 197));
+  background: linear-gradient(to top, rgb(0, 33, 156), rgb(0, 71, 197));
+}
+
+#service .row:first-child {
+  margin-top: 70px;
+}
+
+
+
+#service h3{
+  color: white;
+  text-align: center;
+}
+
+#service ul {
+  list-style: none;
+  color: lightgray;
+}
+
+#service li {
+  padding: 5px;
+}
+
+#service li > span:first-child{
+  color: white;
+}
+
+#service span{
+  margin-right: 70px;
+}
+
+#service a{
+  float: right;
+}
+
+.line-gray{
+  border-bottom: 1px solid lightgray;
+}
+
+.line-white{
+  border-bottom: 1px solid white;
 }
