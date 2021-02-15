@@ -13,7 +13,11 @@
     font-size: 55px;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* REGOLE JT */
 #jt {
@@ -138,10 +142,24 @@
   padding-top: 250px;
 }
 
-#developers .row:nth-child(2){
+#developers .row:first-child {
+  margin-top: 50px;
+}
+
+#developers .row:nth-child(2) {
   margin-bottom: 20px;
+}
+
+#developers .row:last-child {
+  margin-bottom: 50px;
 }
 
 #developers .row:last-child span {
   color: rgb(0, 106, 255);
+}
+
+/* REGOLE FEATURES */
+#features .row:first-child {
+  text-align: center;
+  margin-bottom: 20px;
 }
