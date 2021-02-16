@@ -253,3 +253,59 @@ p{
 #start button {
   margin-bottom: 20px;
 }
+
+/* REGOLE FOOTER */
+footer {
+  background-color: rgb(3, 28, 78);
+}
+
+footer .row{
+  margin: 60px;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+footer p{
+  margin-bottom: 0;
+  color: gray;
+}
+
+footer p:nth-child(2){
+  color: lightgray;
+}
+
+footer img{
+  width: 40px;
+}
+
+footer h4{
+  text-align: center;
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul > li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+footer ul > li > a{
+  color: lightgray;
+}
+
+footer ul > li > a:hover{
+  color: #ADC3F6;
+  text-decoration: none;
+}
+
+footer i {
+  font-size: 23px;
+  margin-right: 7px;
+  color: lightgray;
+}
