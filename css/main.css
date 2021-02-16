@@ -21,6 +21,19 @@ p{
   font-family: sans-serif;
 }
 
+/* REGOLE HEADER */
+.navbar-brand img{
+    height: 20px;
+}
+
+nav.navbar.navbar-default {
+    border: none;
+}
+
+
+
+
+
 /* REGOLE JT */
 #jt {
   background-image: url(../img/jumbo.svg);
