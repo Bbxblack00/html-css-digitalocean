@@ -242,8 +242,14 @@ p{
 /* REGOLE START */
 #start {
   text-align: center;
+  background: linear-gradient(to top, rgb(0, 33, 156), rgb(0, 71, 197));
 }
 
-#start .container {
-  background: linear-gradient(to top, rgb(0, 33, 156), rgb(0, 71, 197));
+
+#start h3 {
+  color: white;
+}
+
+#start button {
+  margin-bottom: 20px;
 }
