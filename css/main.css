@@ -21,14 +21,35 @@ p{
   font-family: sans-serif;
 }
 
+.container {
+  z-index: 90;
+}
+
 /* REGOLE HEADER */
+header {
+  position: fixed;
+  margin: 0 auto;
+}
+
 .navbar-brand img{
   height: 20px;
 }
 
 nav.navbar.navbar-default {
     border: none;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 80%;
+    z-index: 100;
 }
+
+header .btn {
+  margin-top: 8px;
+}
+
+
 
 
 
@@ -38,6 +59,8 @@ nav.navbar.navbar-default {
 #jt {
   background-image: url(../img/jumbo.svg);
   background-size: cover;
+  margin-top: 50px;
+
 }
 
 #iscrizione {
@@ -84,6 +107,7 @@ nav.navbar.navbar-default {
 #businesses {
   background-color: rgb( 243, 245, 249);
   text-align: center;
+
 }
 
 #businesses p{
@@ -139,6 +163,7 @@ nav.navbar.navbar-default {
 #developers {
   text-align: center;
   background-color: rgb( 243, 245, 249);
+
 }
 
 #developers img {
@@ -178,6 +203,7 @@ nav.navbar.navbar-default {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 50px;
+
 }
 
 #features .row:last-child {
@@ -187,6 +213,7 @@ nav.navbar.navbar-default {
 /* REGOLE SERVICE */
 #service{
   background: linear-gradient(to top, rgb(0, 33, 156), rgb(0, 71, 197));
+
 }
 
 #service .row:first-child {
@@ -270,6 +297,7 @@ nav.navbar.navbar-default {
 /* REGOLE FOOTER */
 footer {
   background-color: rgb(3, 28, 78);
+
 }
 
 footer .row{
